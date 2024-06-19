@@ -1,0 +1,345 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (enable_language)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (enable_language)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine 버전 15.1.550.39093
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      빌드 시작: 2024-05-24 오전 8:53:03
+      1 노드의 "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\3.27.0\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
+      PrepareForBuild:
+        "Debug\\" 디렉터리를 만들고 있습니다.
+        "Debug\\CompilerIdC.tlog\\" 디렉터리를 만들고 있습니다.
+      InitializeBuildStatus:
+        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\3.27.0\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"에 연결(touching)하고 있습니다.
+      "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\3.27.0\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      
+      빌드했습니다.
+          경고 0개
+          오류 0개
+      
+      경과 시간: 00:00:00.56
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/3.27.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (enable_language)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine 버전 15.1.550.39093
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      빌드 시작: 2024-05-24 오전 8:53:04
+      1 노드의 "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\3.27.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
+      PrepareForBuild:
+        "Debug\\" 디렉터리를 만들고 있습니다.
+        "Debug\\CompilerIdCXX.tlog\\" 디렉터리를 만들고 있습니다.
+      InitializeBuildStatus:
+        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\3.27.0\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"에 연결(touching)하고 있습니다.
+      "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\3.27.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      
+      빌드했습니다.
+          경고 0개
+          오류 0개
+      
+      경과 시간: 00:00:00.49
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/3.27.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (enable_language)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-8wu7r2"
+      binary: "D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-8wu7r2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-8wu7r2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" cmTC_9afe1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine 버전 15.1.550.39093
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        빌드 시작: 2024-05-24 오전 8:53:05
+        1 노드의 "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8wu7r2\\cmTC_9afe1.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_9afe1.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8wu7r2\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_9afe1.dir\\Debug\\cmTC_9afe1.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_9afe1.dir\\Debug\\cmTC_9afe1.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9afe1.dir\\Debug\\\\" /Fd"cmTC_9afe1.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\util\\cmake-3.27.0-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25027 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9afe1.dir\\Debug\\\\" /Fd"cmTC_9afe1.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\util\\cmake-3.27.0-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8wu7r2\\Debug\\cmTC_9afe1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-8wu7r2/Debug/cmTC_9afe1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-8wu7r2/Debug/cmTC_9afe1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9afe1.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9afe1.vcxproj -> D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8wu7r2\\Debug\\cmTC_9afe1.exe
+          cmTC_9afe1.vcxproj -> D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-8wu7r2/Debug/cmTC_9afe1.pdb (Full PDB)
+        FinalizeBuildStatus:
+          "cmTC_9afe1.dir\\Debug\\cmTC_9afe1.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_9afe1.dir\\Debug\\cmTC_9afe1.tlog\\cmTC_9afe1.lastbuildstate"에 연결(touching)하고 있습니다.
+        "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8wu7r2\\cmTC_9afe1.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (enable_language)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-29fol4"
+      binary: "D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-29fol4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-29fol4'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" cmTC_da60c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine 버전 15.1.550.39093
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        빌드 시작: 2024-05-24 오전 8:53:06
+        1 노드의 "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-29fol4\\cmTC_da60c.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_da60c.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-29fol4\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_da60c.dir\\Debug\\cmTC_da60c.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_da60c.dir\\Debug\\cmTC_da60c.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_da60c.dir\\Debug\\\\" /Fd"cmTC_da60c.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\util\\cmake-3.27.0-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25027 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_da60c.dir\\Debug\\\\" /Fd"cmTC_da60c.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\util\\cmake-3.27.0-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-29fol4\\Debug\\cmTC_da60c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-29fol4/Debug/cmTC_da60c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-29fol4/Debug/cmTC_da60c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_da60c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_da60c.vcxproj -> D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-29fol4\\Debug\\cmTC_da60c.exe
+          cmTC_da60c.vcxproj -> D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-29fol4/Debug/cmTC_da60c.pdb (Full PDB)
+        FinalizeBuildStatus:
+          "cmTC_da60c.dir\\Debug\\cmTC_da60c.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_da60c.dir\\Debug\\cmTC_da60c.tlog\\cmTC_da60c.lastbuildstate"에 연결(touching)하고 있습니다.
+        "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-29fol4\\cmTC_da60c.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (enable_language)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-7plbp7"
+      binary: "D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-7plbp7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-7plbp7'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" cmTC_c3edf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine 버전 15.1.550.39093
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        빌드 시작: 2024-05-24 오전 8:53:07
+        1 노드의 "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7plbp7\\cmTC_c3edf.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_c3edf.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7plbp7\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_c3edf.dir\\Debug\\cmTC_c3edf.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_c3edf.dir\\Debug\\cmTC_c3edf.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_c3edf.dir\\Debug\\\\" /Fd"cmTC_c3edf.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7plbp7\\feature_tests.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25027 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_c3edf.dir\\Debug\\\\" /Fd"cmTC_c3edf.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7plbp7\\feature_tests.cxx"
+          feature_tests.cxx
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7plbp7\\Debug\\cmTC_c3edf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-7plbp7/Debug/cmTC_c3edf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-7plbp7/Debug/cmTC_c3edf.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c3edf.dir\\Debug\\feature_tests.obj
+          cmTC_c3edf.vcxproj -> D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7plbp7\\Debug\\cmTC_c3edf.exe
+          cmTC_c3edf.vcxproj -> D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-7plbp7/Debug/cmTC_c3edf.pdb (Full PDB)
+        FinalizeBuildStatus:
+          "cmTC_c3edf.dir\\Debug\\cmTC_c3edf.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_c3edf.dir\\Debug\\cmTC_c3edf.tlog\\cmTC_c3edf.lastbuildstate"에 연결(touching)하고 있습니다.
+        "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7plbp7\\cmTC_c3edf.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/util/cmake-3.27.0-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (enable_language)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-76521j"
+      binary: "D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-76521j"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-76521j'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" cmTC_b83ea.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine 버전 15.1.550.39093
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        빌드 시작: 2024-05-24 오전 8:53:07
+        1 노드의 "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76521j\\cmTC_b83ea.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_b83ea.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76521j\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_b83ea.dir\\Debug\\cmTC_b83ea.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_b83ea.dir\\Debug\\cmTC_b83ea.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b83ea.dir\\Debug\\\\" /Fd"cmTC_b83ea.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76521j\\feature_tests.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25027 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b83ea.dir\\Debug\\\\" /Fd"cmTC_b83ea.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76521j\\feature_tests.cxx"
+          feature_tests.cxx
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.10.25017\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76521j\\Debug\\cmTC_b83ea.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-76521j/Debug/cmTC_b83ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-76521j/Debug/cmTC_b83ea.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b83ea.dir\\Debug\\feature_tests.obj
+          cmTC_b83ea.vcxproj -> D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76521j\\Debug\\cmTC_b83ea.exe
+          cmTC_b83ea.vcxproj -> D:/testcode/utill_testcode/2405.1/crulechk/build/CMakeFiles/CMakeScratch/TryCompile-76521j/Debug/cmTC_b83ea.pdb (Full PDB)
+        FinalizeBuildStatus:
+          "cmTC_b83ea.dir\\Debug\\cmTC_b83ea.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_b83ea.dir\\Debug\\cmTC_b83ea.tlog\\cmTC_b83ea.lastbuildstate"에 연결(touching)하고 있습니다.
+        "D:\\testcode\\utill_testcode\\2405.1\\crulechk\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76521j\\cmTC_b83ea.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:00.55
+        
+      exitCode: 0
+...

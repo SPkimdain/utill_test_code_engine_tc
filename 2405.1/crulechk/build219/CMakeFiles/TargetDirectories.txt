@@ -1,0 +1,4 @@
+D:/testcode/utill_testcode/2405.1/crulechk/build219/CMakeFiles/ALL_BUILD.dir
+D:/testcode/utill_testcode/2405.1/crulechk/build219/CMakeFiles/ZERO_CHECK.dir
+D:/testcode/utill_testcode/2405.1/crulechk/build219/local/CMakeFiles/TestCasesC.dir
+D:/testcode/utill_testcode/2405.1/crulechk/build219/local/CMakeFiles/TestCasesCPP.dir

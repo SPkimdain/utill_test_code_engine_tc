@@ -1,0 +1,894 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5595771E-E761-3D95-9B9F-AF9DEE35ED0D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>TestCasesCPP</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\testcode\utill_testcode\2405.1\crulechk\build219\local\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TestCasesCPP.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TestCasesCPP</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\testcode\utill_testcode\2405.1\crulechk\build219\local\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TestCasesCPP.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TestCasesCPP</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\testcode\utill_testcode\2405.1\crulechk\build219\local\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">TestCasesCPP.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">TestCasesCPP</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\testcode\utill_testcode\2405.1\crulechk\build219\local\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TestCasesCPP.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TestCasesCPP</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\testcode\utill_testcode\2405.1\crulechk\local\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/testcode/utill_testcode/2405.1/crulechk/local/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\util\cmake-3.27.0-windows-x86_64\bin\cmake.exe -SD:/testcode/utill_testcode/2405.1/crulechk -BD:/testcode/utill_testcode/2405.1/crulechk/build219 --check-stamp-file D:/testcode/utill_testcode/2405.1/crulechk/build219/local/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\testcode\utill_testcode\2405.1\crulechk\build219\local\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/testcode/utill_testcode/2405.1/crulechk/local/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\util\cmake-3.27.0-windows-x86_64\bin\cmake.exe -SD:/testcode/utill_testcode/2405.1/crulechk -BD:/testcode/utill_testcode/2405.1/crulechk/build219 --check-stamp-file D:/testcode/utill_testcode/2405.1/crulechk/build219/local/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\testcode\utill_testcode\2405.1\crulechk\build219\local\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/testcode/utill_testcode/2405.1/crulechk/local/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\util\cmake-3.27.0-windows-x86_64\bin\cmake.exe -SD:/testcode/utill_testcode/2405.1/crulechk -BD:/testcode/utill_testcode/2405.1/crulechk/build219 --check-stamp-file D:/testcode/utill_testcode/2405.1/crulechk/build219/local/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\testcode\utill_testcode\2405.1\crulechk\build219\local\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/testcode/utill_testcode/2405.1/crulechk/local/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\util\cmake-3.27.0-windows-x86_64\bin\cmake.exe -SD:/testcode/utill_testcode/2405.1/crulechk -BD:/testcode/utill_testcode/2405.1/crulechk/build219 --check-stamp-file D:/testcode/utill_testcode/2405.1/crulechk/build219/local/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\testcode\utill_testcode\2405.1\crulechk\build219\local\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ALREADY_DEFINE_IDENTIFIER\MISRA_C_2004_19_11.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ASSIGN_CLASS_MEMBERS\3_1_5a.hpp" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ASYNCHRONOUS_CANCEL_THREADS\ASYNCCCTHR_001.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_CASTING_TO_VIRTUAL_CLASS\3_3_4.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_DOWNCASTING\3_3_3.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_HEADER_FILE.DATA\BadHeaderFileData.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_HEADER_FILE.DEFINE\BHFDEF_001.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_INCLUDE.DUPLICATED\file_target_excluded.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_INCLUDE.FORBIDDEN\MIS14_A.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_INCLUDE.INVALID_PATH\includes\test.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_INCLUDE\BadInclude.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_NAME.VARIABLE\BadNameVariable.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BITWISE_OPERANDS_SHOULD_HAVE_SAME_TYPE\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BITWISE_OPERATION_BOOLEAN\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BITWISE_RESULT_SHALL_CAST_IMMEDIATELY\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BOOLEAN_EXPR_IN_SWITCH\BEIS_mc2_header.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BOOLEAN_EXPR_IN_SWITCH\BEIS_mc2_types.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CONVERSION_OPERATOR_CLASS_TYPE\3_1_11.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CONVERSION_OPERATOR_FUNDAMENTAL_TYPE\3_1_10.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_EXPLICIT\3_2_3.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_EXTERN_IN_HEADER_FILES\8_1_1b.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_TYPE_IN_HEADER_FILES\8_1_1a.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DEFINE_INLINE_IN_HEADER_FILES\8_1_2.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DEFINE_TEMPLATE_IN_HEADER_FILES\8_1_3.hpp" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_INCLUDE_PATH_SPECIFIER\14_10\14_10.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_MIX_ARITHMETIC_PRECISION\10_14.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_MIX_SIGNED_AND_UNSIGNED\10_13.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_OVERRIDE_ADDRESS_OF\DoNotOverrideAddressof.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_REUSE_IDENTIFIER_NAME\DNRIN_mc2_header.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_REUSE_IDENTIFIER_NAME\DNRIN_mc2_types.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_REUSE_IDENTIFIER_NAME\mc2_0507.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_CSTDIO\DoNotUseCStdio.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_CSTRING\DoNotUseCstring.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_CTIME\DoNotUseCtime.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_NON_STANDARD_CHARACTERS\!@#abcd.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_SAME_NAME_IN_NESTED\DNUSNIN_mc2_header.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_SAME_NAME_IN_NESTED\DNUSNIN_mc2_types.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_SAME_NAME_IN_NESTED\mc2_0502.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_UNUSED_MACRO_GLOBAL\misra2012-2.5.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EMPTY_ARRAY_SIZE\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXPR_NOT_BOOLEAN\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXTERN_VAR_AND_FUNC_SHOULD_BE_IN_INTERFACE_FILE\Rule49.hpp" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FILENAME_IN_ANGLE_BRACKET_OR_DOUBLE_QUOTATION\headerfile.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FIRST_COLUMN.PREPROCESSING\header1.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FIRST_COLUMN.PREPROCESSING\header2.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FLOAT_BIT_REPRESENTATION\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FORBIDDEN.ASSIGN_ADDRESS\autoever01_20.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPLEMENT_ABSTRACT_DATA_TYPES\CompliantExternal.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPLEMENT_ABSTRACT_DATA_TYPES\CompliantInternal.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPLEMENT_ABSTRACT_DATA_TYPES\Noncompliant.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPLICIT_CONVERSION_INT_PARAM\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPLICIT_NARROW_INTEGER_CONVERSION\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPLICIT_WIDEN_CAST_COMPLEX_INT_EXPR\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_LOOP_COUNT_TEST\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INCONSISTENT_GLOBAL_VARIABLE_TYPE\IGVT_mc2_header.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INCONSISTENT_GLOBAL_VARIABLE_TYPE\IGVT_mc2_types.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INCONSISTENT_GLOBAL_VARIABLE_TYPE\mc2_0804.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISMATCH_RETURN_TYPE\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISMATCH_STORAGE_CLASS\Test.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NAMESPACE_IN_HEADER_SHOULD_BE_NAMED\NamespaceInHeaderShouldBeNamed.hpp" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NARROW_CAST_COMPLEX_INTEGRAL_EXPR\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_BITWISE_SIGNED\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_EXPLICIT_TYPE_CASTING\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_FUNCTION_DEFINITION_IN_HEADER\NFDEFIH_001.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_SIDE_EFFECT_STMT\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\OVERLOADED_FUNCTION_TEMPLATE_NOT_BE_SPECIALIZED\OverloadedFunctionTemplateNotBeSpecialized.hpp" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\POINTER_ARITHMETIC_NOT_ON_ARRAY\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PREMATURE_THREAD_TERMINATION\posix_headers.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\R\RESTRICT_USE_OF_EXTERN_KEYWORD\8_3_2.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TEMPLATE_SPECIALIZATION_SHOULD_BE_SAME_FILE\TemplateSpecializationShouldBeSameFile.hpp" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\THREAD_SHARE_LOCAL_VARIABLE\THRSLVAR_001.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TOO_LONG_IDENTIFIER\TLID_mc2_header.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TOO_LONG_IDENTIFIER\TLID_mc2_types.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TOO_LONG_IDENTIFIER\mc2_0501_1.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TOO_LONG_IDENTIFIER\mc2_0501_2.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNARY_NEGATIVE_OP_ON_UNSIGNED\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNCHECK_ARRAY_LENGTH\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNIQUE_HEADER_FILE_NAME\longname_abcd.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNIQUE_HEADER_FILE_NAME\longname_abcdefghijklmn.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNIQUE_HEADER_FILE_NAME\pre_test.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CODEGUARD_WHEN_DECLARING_CLASS\UseCodeguardWhenDeclaringClass.hpp" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CODEGUARD_WHEN_DECLARING_CLASS\UseCodeguardWhenDeclaringClass2.hpp" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CONST_WITH_MACRO\use_const_with_macro.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_LOWER_CASE_IN_INCLUDE_FILENAMES\14_12Upper.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_LOWER_CASE_IN_INCLUDE_FILENAMES\14_12lower.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_SIZEOF_ON_PARAM\USOPARAM_001.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_STANDARD_CPP_LIBRARY_HEADERS\17_1a.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_STANDARD_CPP_LIBRARY_HEADERS\17_1b.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_STANDARD_CPP_LIBRARY_HEADERS\17_1c.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_UNSIGNED_INT_ON_DIVISION\custom_typedef.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\W\WEAK_PASSWORD_REQUIREMENTS\WeakPasswordReq.h" />
+    <ClInclude Include="D:\testcode\utill_testcode\2405.1\crulechk\local\W\WRITE_VIRTUAL_DTOR_FOR_BASE_CLASS\3_3_2.h" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ACCESS_CV_QUALIFIED_OBJECT_THROUGH_CV_UNQUALIFIED\const_cast.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ALLOCATE_SUFFICIENT_MEMORY\mem35.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ALWAYS_DISCARD_RESULT_OF_ASSIGN\AlwaysDiscardResultOfAssignTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ALWAYS_SET_POINTER_TO_ZERO\AlwaysSetPointerToZeroTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ARGUMENT_NAMES_SHALL_BE_MATCHED\ArgumentNamesShallBeMatchedTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ASSEMBLER_INST_USE_ASM_DECLARATION\AssemblerInstsUseAsmDeclaration.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ASSIGNMENT_OPERATOR_SHOULD_RETURN_REFERENCE\Rule79.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ASSIGN_BASE_CLASS_MEMBERS\3_1_5b.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ASSIGN_BASE_CLASS_MEMBERS\fp_5698.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ASSIGN_BASE_CLASS_MEMBERS\issue-5699.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ASSIGN_CLASS_MEMBERS\3_1_5a.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ASYMMETRIC_OPERATOR_MUST_BE_DEFINED_AS_MEMBER\ASYMOMBDAM_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\ATOMIC_EXCHANGE_WEAK_SHOULD_BE_IN_LOOP\AtomicExchangeWeakShouldBeInLoop.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AT_LEAST_ONE_EXCEPTION_HANDLER\AtLeastOneExceptionHandler.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AT_LEAST_ONE_EXCEPTION_HANDLER\AtLeastOneExceptionHandler2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AT_LEAST_ONE_EXCEPTION_HANDLER\AtLeastOneExceptionHandler3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AT_MOST_ONE_NON_ABSTRACT_BASE_CLASS\3_4_6.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AUTHENTICATION_ATTEMPT_LIMIT\AuthenticationAttemptLimitTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_AMBIGUOUS_GRAMMAR\AvoidAmbiguousGrammarTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_CASTING_TO_VIRTUAL_CLASS\3_3_4.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_CATCHING_GENERIC_EXCEPTION\AVOID_CATCHING_GENERIC_EXCEPTION.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_DOWNCASTING\3_3_3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_DOWNCASTING\MISRA2008_5_2_3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_FRIEND_FUNCTION_AND_CLASS\AvoidFriendFunctionAndClassTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_GLOBAL_VARIABLES\AvoidGlobalVariablesTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_IMPLICIT_CONVERSIONS_OF_ARGUMENTS\fp_5717.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_IMPLICIT_CONVERSION_OF_CLASS_TEMPLATE\AvoidImplicitConversionOfClassTemplates.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_PTHREAD_MUTEX_NORMAL\AvoidPthreadMutexNormal-strict_posix.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_SIDE_EFFECT_FROM_FUNCTION_CALL\46b.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_SIDE_EFFECT_IN_EXPRESSION\MISRA_C_1998_46a.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_SIDE_EFFECT_IN_MACRO_ARG\PRE31-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_SIDE_EFFECT_IN_PARAMETERS\FIO41C.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_SIDE_EFFECT_IN_PARAMETERS\MISRA_C_1998_46e.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_THROWING_GENERIC_EXCEPTION\AvoidThrowingGenericException.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\A\AVOID_USING_STATIC_KEYWORD\AvoidUsingStaticKeywordTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_ARGS.FORBIDDEN.AFTER_CALL\BAFAC_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_ARGUMENTS.UMASK\cwe-560-example.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_CALL.FORBIDDEN.PARAM.NAME\BCFBDPN_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_CALL.FORBIDDEN\BCFBD_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_CALL.INCORRECT_SIZEOF.MEMCPY\T0063.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_CALL.LIBRARY.MEMORY\BCLM_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_CALL.NOT_ALLOWED.PARAM.NAME\BCNAPN_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_CALL.NOT_ALLOWED.PARAM.STRING\BCNAPS_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_CALL.REQUIRED.ARGS\BCREQA_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_CALL.REQUIRED.VARARGS\BCREQVA_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_CALL.REQUIRED.WRAPPER\BCREQWRAP_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_CALL.TYPE_MISMATCH.REALLOC\T0047.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_CALL.TYPE_MISMATCH.SPRINTF\BCTMSPRINTF_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_DB_TRANSACTION\BDBTRS_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_EQUALITY_EXPRESSION.FLOAT\T0038.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_ERROR.INVALID_CODE\BERRIC_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_ERROR.MISSING_LOGGING\BERRMSLOG_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_ERROR.MISSING_RETURN\BERRMSRET_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_FORM_FORLOOP_CONTINUE\MISRA2008_6_6_3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_FUNCTION_ADDRESSING\MISRA2008_8_4_4.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_HEADER_FILE.DEFINE\BHFDEF_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_INCLUDE.DUPLICATED\BINCDUP_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_INCLUDE.FORBIDDEN\BINCFBD_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_INCLUDE.INVALID_PATH\T0041.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_INIT.MISSING_AFTER_DECLARATION\TN_6466.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_INIT.MISSING_AFTER_LOCAL_DECLARATION\8_4_3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_INIT.MISSING_AFTER_LOCAL_DECLARATION\issue-5788.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_INTEGER_EXPRESSION\BINTEXPR_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_MACRO.DANGEROUS_USAGE\BMACDU_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_MACRO.MISUSE\BMACMIS_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_MACRO.NAMING\BMACNAME_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_MACRO.TRAILING_SEMICOLON\BMACTSEMC_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_MACRO_USAGE\BMACUSG_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_MALLOC\T0045.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_NAME.CLASS\Rule44.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_NAME.DUPLICATED\BNDUPL_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_NAME.GLOBAL_IDENTIFIER_NAME.MISRA2012\BNGINM_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_NAME.USER_DEFINED_TYPE\Rule43.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_NAME.VARIABLE\BadNameVariable.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_OPERATOR.ASSIGNMENT_IN_COND\T0061.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_OPERATOR.LOGICAL_COMPARISON\T0062.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_PARAM.PFM_SET_ERR.PF\BadParam.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_PATH_MANIPULATION\BPMNPUL_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_PRIVILEGE_ASSIGNMENT\BPRIVASNMT_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_PRIVILEGE_RELINQUISHMENT\BPRIVRQSMNT_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_QUALIFIER.FORBIDDEN.PARAM_PTR\BQUALFPP_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_QUALIFIER.REQUIRED.PARAM_PTR\BQUALRPP_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_RETURN_TEST\T0042.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_STRING_MANAGEMENT\BSTRMNG_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_STRUCT_MEMBER_ACCESS\BSMACC_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_TRY_CATCH_MACRO_USAGE\BTCMUSG_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_WHITESPACE.CASTING\BWSPCCAST_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BAD_WHITESPACE.KEYWORD\BadWhitespaceKeyword.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BASE_CLASS_NOT_BE_VITRUAL_AND_NON_IN_SAME_HIERARCHY\BaseClassNotBeVirtualAndNonInSameHierarchy.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BASE_CLASS_SHOULD_BE_DECLARED_VIRTUAL_ONLY_IN_DIAMOND_HIERARCHY\BCSBDVOIDH_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BEWARE_LARGER_SIZE_INT_EXPR\BewareLargerSizeIntExpr-posix.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BEWARE_OF_COMPILER_OPTIMIZATIONS\msc06-msvc.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BEWARE_OF_PRECISION_LOSS\flp36.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BITWISE_OPERANDS_SHOULD_HAVE_SAME_TYPE\bitwiseOperandsShouldHaveSameType.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BIT_FIELDS_SHALL_BE_EXPLICIT_SIGNGED_TYPE\BitFieldsShallBeExplicitSignedType.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BSSC.NAMING_CONVENTION.FUNCTION\Rule41.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\B\BSSC.NAMING_CONVENTION.VARIABLE\Rule40.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CALL_ORDER_POSSIBLE_SIDE_EFFECT\CallOrderPossibleSideEffect.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CALL_UNINIT_VAR_WITH_CONST\IT_20160719.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CALL_UNINIT_VAR_WITH_CONST\alarm-case.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CALL_UNINIT_VAR_WITH_CONST\fp_5621.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CALL_UNINIT_VAR_WITH_CONST\fp_5718.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CALL_VAARG_ON_INDETERMINATE_VALIST\msc39.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CALL_VIRTUAL_WITHOUT_QUALIFIER_IN_CTOR_DTOR\CallVirtualWithoutQualifierInCtorDtor.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CAST_CHAR_TO_UNSIGNED_BEFORE_CONVERTING_INT\STR34-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CATCH_ALL_EXCEPTIONS_THROWN_EXPLICITLY\MISRA2008_15_3_4.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CATCH_EXCEPTIONS_BY_REFERENCE\CatchExceptionsByReference.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CATCH_EXCPETIONS_IN_HIERACHICAL_ORDER\CatchExceptionsInHierachicalOrder.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CHECK.DUPLICATED_PARAM\CHKDP_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CHECK.FIELD_ARRAY_LENGTH\CHKFAL_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CHECK_FOR_ASSIGNING_OBJECT_TO_ITSELF\Rule77.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR\CHRJWCWD_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CLASS_MEMBER_SHOULD_NOT_BE_PUBLIC\Rule68.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CLASS_SHOULD_DECLARE_ASSIGNMENT_OPERATOR\Rule76.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CLASS_SHOULD_DECLARE_CONSTRUCTOR\Rule69.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CLASS_SHOULD_DECLARE_COPY_CONSTRUCTOR\Rule72.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CLASS_SHOULD_DECLARE_DESTRUCTOR\Rule70.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CLONE_ONLY_FINAL\CloneOnlyFinal.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CND_WAIT_SHOULDE_BE_IN_LOOP\CndWaitShouldeBeInLoop.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\COMPARE_LOOP_COUNTER\CompareLoopCounter.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CONCATENATE_DIFF_TYPE_STR\ConcatenateDiffTypeStr.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CONSTANT_ON_LEFT_HANDSIDE\ConstantOnLeftHandSideTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CONSTEXPR_IN_SWITCH\ConstExprInSwitch.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CONST_MEMBER_FUNCTION_SHOULD_NOT_RETURN_NONCONST\3_4_2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CONST_VALUE_MODIFICATION\CVM_002.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CONTAINER_INDICES_WITHIN_VALID_RANGE\ContainerIndicesWithinValidRange.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CONVERSION_OPERATOR_CLASS_TYPE\3_1_11.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CONVERSION_OPERATOR_FUNDAMENTAL_TYPE\3_1_10.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CONVERT_INT_TO_FLOAT_FOR_FLOAT_OPERATION\FLP33-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CRITICAL_PUBLIC_VARIABLE_WITHOUT_CONST_MODIFIER\cwe-493-example.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CRITICAL_VARIABLE_IN_PUBLIC\integration_test_no2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CRITICAL_VARIABLE_IN_PUBLIC\made-example.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\C\CTORS_SHOULD_NOT_HAVE_SIDE_EFFECT\OOP36-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DEALLOCATORS_MUST_NOT_THROW_EXCEPTIONS\DEMNTEXCPT_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_CONST_MEMBER_FUNCTION\DeclareConstMemberFunctionTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_CONTROL_VARIABLES_WITHIN_FOR\DeclareControlVariablesWithinForTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_COPY_CONSTRUCTOR_PROTECTED\3_3_14.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_DESTRUCTOR_FOR_RESOURCE_CLASS\DeclareDestructorForResourceClassTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_DESTRUCTOR_USING_NEW\DeclareDestructorUsingNewTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_EXPLICIT\3_2_3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_EXPLICIT_ASSIGNMENT_OPERATOR_WHEN_TEMPLATED\declareExplicitAssignmentOperator.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_EXTERNAL_OBJECT_ONLY_ONCE\DEXOOO_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_EXTERN_IN_HEADER_FILES\8_1_1b.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_NON_MEMBER_GENERIC_FUNC_IN_UNASSOCIATED_NAMESPACE\declareNonMemberGenericFuncInUnassociatedNamespaceTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_ONE_NAME_ONLY_IN_EACH_TYPEDEF\DeclareOneNameOnlyInEachTypedefTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_READ_ONLY_PARAMETERS\DeclareReadOnlyParametersTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_SPECIAL_METHOD_FOR_RESOURCE_CLASS\DeclareSpecialMethodForResourceClassTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_SPECIAL_METHOD_USING_NEW\DeclareSpecialMethodUsingNewTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_STATIC_WHEN_UNLESS_EXTERNAL_LINKAGE\DSWUEXL_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECLARE_TYPE_IN_HEADER_FILES\8_1_1a.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DECREMENT_ON_BOOLEAN\DECONBOOL_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DEFINE_INLINE_IN_HEADER_FILES\8_1_2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DEFINE_SET_NEW_HANDLER\DEFSNH_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DEFINE_TEMPLATE_IN_HEADER_FILES\8_1_3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DESTRUCTORS_MUST_NOT_THROW_EXCEPTIONS\ERR33-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DESTRUCTOR_SHOULD_BE_VIRTUAL\Rule71.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DIFFERENT_EXCEPTION_SPECIFICATION\DifferentExceptionSpecificationA1.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DIFFERENT_EXCEPTION_SPECIFICATION\DifferentExceptionSpecificationA2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DIFFERENT_EXCEPTION_SPECIFICATION\DifferentExceptionSpecificationA3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DIFFERENT_MUTEX_ON_CONDITION_VARIABLE\DifferentMutexOnConditionVariable-posix.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DIFFERENT_TYPE_DECLARATIONS\MISRA2008_8_0_1.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DIRECTLY_APPEND_POINTER_AND_AMPERSAND\DirectlyAppendPointerAndAmpersandTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_ABRUPTLY_TERMINATE_THE_PROGRAM\DoNotAbruptlyTerminateTheProgram.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_ACCESS_OVERLAPPING_STORAGE\DoNotAccessOverlappingStorageTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_ALTER_CONTROL_VARIABLE_MORE_THAN_ONCE\DoNotAlterControlVariableMoreThanOnceTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_ASSERT_AFTER_ATEXIT\DNAAA_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_ASSIGN_ADDRESS_TO_WIDER_SCOPE\doNotAssignAddressToWiderScopeTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_CALCULATE_SCALED_INT_TO_POINTER\DoNotCalculateScaledIntToPointer.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_CALL_UNLOCK_DIRECTLY_ON_MUTEX\DoNotCallUnlockDirectlyOnMutex.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_CAST_AWAY_CONST\EXP35-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_CAST_FROM_INTEGRAL_TO_POINTER\11_3b.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_CAST_FROM_POINTER_TO_INTEGRAL\11_3a.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_CAST_FROM_VOID_POINTER_TO_POINTER\DoNotCastFromVoidPointerToPointerTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_CAST_INT_TO_ENUM\15_4.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_CAST_OR_DELETE_POINTER_TO_INCOMPLETE_CLASSES\EXP39-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_CAST_TO_POINTER\DoNotCastToPointerTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_COMMENT_IN_CODE_SECTION\DoNotCommentInCodeSection.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_CONVERT_FLOATING_TO_INTEGRAL\DoNotConvertFloatingToIntegralTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_DECLARED_INLINE_WITHIN_CLASS_DECLARATION\Rule85.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_DECLARE_OR_DEFINE_RESERVED_ID\DCL32-CPP-posix.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_DECLARE_OR_DEFINE_RESERVED_ID\DCL32_CPP2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_DEFINE_VARIADIC_FUNCTIONS\DCL31-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_DERIVE_FROM_VIRTUAL_BASE\DoNotDeriveFromVirtualBase.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_DISCARD_FUNCTION_RETURN_VALUE\DoNotDiscardFunctionReturnValue.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_EXPLICIT_FLOATING_INTEGRAL_CONVERSION\DoNotExplicitFloatingIntegralConversion.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_HIDE_DEREFERENCE_OP_IN_TYPEDEF\28.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_INCLUDE_COMMENT_IN_MACRO\DoNotIncludeCommentInMacroTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_INCLUDE_PATH_SPECIFIER\DoNotIncludePathSpecifierTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_MIX_ARITHMETIC_PRECISION\10_14.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_MIX_SIGNED_AND_UNSIGNED\10_13.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_MODIFY_KEY_OF_SET\DNMKOS_001-msvc-2008.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_MODIFY_KEY_OF_SET\DNMKOS_002-msvc-2008.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_MODIFY_PRIVATE_IN_PUBLIC_FUNCTION\cwe-767-example.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_MODIFY_STATIC_MEMBER_IN_COPY_CONSTRUCTOR\DoNotModifyInCopyConstructor.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_MODIFY_THE_STANDARD_NAMESPACES\DoNotModifyTheStandardNamepsaces.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_OPERATE_ENUMERATOR\DNOE_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_OVERLOAD_FUNCTION_WITH_SPECIALIZATION\DoNotOverloadFunctionWithSpecialization.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_OVERLOAD_LAND_LOR_COMMA\DoNotOverloadLandLorComma.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_OVERLOAD_NONVIRTUAL_FUNCTION\DoNotOverloadNonVirtualFunction.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_OVERLOAD_NUMERIC_AND_POINTER\DoNotOverloadNumericAndPointerTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_OVERRIDE_ADDRESS_OF\DoNotOverrideAddressof.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_OVERRIDE_ADDRESS_OF\DoNotOverrideAddressof2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_RECURSIVELY_REENTER_DURING_INIT_STATIC\DCL38-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_RECURSIVELY_REENTER_DURING_INIT_STATIC\DCL56-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_REDEFINE_ERRNO\DoNotRedefineErrnoTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_RELY_ON_ENUM_VALUE\15_3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_REMOVE_VOLATILE\DoNotRemoveVolatileTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_REUSE_IDENTIFIER_NAME\DoNotReuseIdentifierNameTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_REUSE_IDENTIFIER_NAME\DoNotReuseIdentifierNameTest3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_REUSE_IDENTIFIER_NAME\DoNotReuseIdentifierNameTest4.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_REUSE_IDENTIFIER_NAME\DoNotReuseIdentifierNameTest5-1.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_REUSE_IDENTIFIER_NAME\DoNotReuseIdentifierNameTest5-2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_REUSE_IDENTIFIER_WITH_STATIC_STORAGE\DNRIDSS_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_SPECIFY_BOUND_OF_ARRAY_FOR_STRING_LITERAL\STR36-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_THROW_ITSELF_CAUSE_EXCEPTION\DoNotThrowItselfCauseException.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_TREAT_ARRAYS_POLYMORPHICALLY\DoNotTreatArraysPolymorphically.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_TYPEDEF_ARRAYTYPE\DoNotTypedefArrayTypeTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_ASSIGN_OPERATOR_IN_EXPRESSION\MISRA_C_1998_46c.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_A_COPY_OF_A_FILE_OBJECT\FIO38-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_BIT_FIELD\MISRA_C_2004_3_5.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_BOOLEAN_VECTOR\DoNotUseBooleanVectorTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_CONST_FOR_SYMBOLIC_CONSTANT\Rule53.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_CSTDIO\DNUCSTDIO_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_CSTDIO\DoNotUseCStdio-01.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_CSTRING\DNUCSTR_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_CSTRING\DoNotUseCstring-01.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_CTIME\DNUCTIME_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_CTIME\DoNotUseCtime-01.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_C_STYLE_ALLOCATION\DNUCSTYLEALLOC_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_C_STYLE_CASTING\DoNotUseCStypeCastingTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_DEFAULT_ARGUMENT_WITH_OVERLOADED\DoNotUseDefaultArgumentWithOverloadedTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_DIGRAPH\DNUDIGRAPH_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_DYNAMICALLY_ALLOCATED_ARRAYS\DoNotUseDynamicallyAllocatedArraysTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_ERRNO\DNUERRNO_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_GETLOGIN_IN_MULTI_THREAD\DNUGIMT_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_HARD_CODING.CALL\DoNotUseHardCodingCall.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_HARD_CODING.INITIALIZATION\DNUHCINIT_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_HARD_CODING.USERNAME\DNUHCUN_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_HARD_CODING\DNUHCD_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_IF_DIRECTIVE\DoNotUseIfDirectiveTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_INLINE\DNUINLINE_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_LONGJMP\20_7b.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_OFFSETOF_MACRO\DNUOFFSETOFM_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_PRAGMA\13_4.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_PTHREAD_KILL\DNUPKILL_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_REGISTER\DoNotUseRegisterTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_SAME_NAME_IN_NESTED\DoNotUseSameNameInNestedTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_SAME_SPELLING_IN_ANOTHER_NAMESPACE\DoNotUseSameSpellingInAnotherNamespaceTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_SEMICOLON_AFTER_PREPROCESSOR\MISRA_C_2004_19_16a.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_SETJMP\20_7a-msvc.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_SIGNAL_HANDLING\DNUSIGHDL_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM\T0043.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_SIZEOF_ON_PTR\T0057.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_STDIO_H\DNUSTDIO_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_STL_CONTAINER_AS_PUBLIC_BASE_CLASSES\DoNotUseSTLContainerAsPublicBaseClassesTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_SYSTEM\T0049.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_TERNARY_OPERATOR\DoNotUseTernaryOperatorTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_TGMATH_H\DNUTGMATH_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_THREAD_IN_SINGLETON\DoNotUseThreadInSingleton.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_THROWABLE_FUNCTION_IN_COPY_ASSIGNMENT\DoNotUseThrowableFunctionsInCopyAssignment.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_THROW_IN_CTOR_OR_DTOR\DoNotUseThrowInCtorOrDtor.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_UNBOUNDED_AGGREGATE_TYPE\DoNotUseUnboundedAggregateTypeTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_UNUSED_MACRO_GLOBAL\DNUUMG_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_USING_DIRECTIVE\DoNotUseUsingDirectiveTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_VOLATILE_IN_COMPLEX_EXPRESSION\MISRA_C_1998_46d.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_USE_WIDE_CHARACTER\DNUWCH_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DO_NOT_WRITE_CONFUSED_CHARACTER\DoNotWriteConfusedCharacterTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\D\DYNAMIC_TYPE_IN_CTOR_OR_DTOR\DynamicTypeInCtorOrDtor.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EMPTY_CATCH_BLOCK\EmptyCatchBlock.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EMPTY_WHILE\EmptyWhile2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EMPTY_WHILE\emptywhile.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\ENCAPSULATE_ASSEMBLER\EncapsulateAssemblerTest-msvc.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\ENCAPSULATE_ASSEMBLER\EncapsulateAssemblerTest-posix.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\ENCLOSE_FUNCTIONS_IN_THE_UNNAMED_NAMESPACE\11_2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\ENSURE_EACH_IDENTIFIER_IS_DISTINCT\EnsureEachIdIsDistinctTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\ENSURE_LAST_LINE_IS_EMPTY\14_8.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\ENSURE_SINGLE_ENTRY_AND_EXIT_POINT\EnsureSingleEntryAndExitPointTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\ENSURE_USING_NAMESPACE_POSITION\EnsureUsingNamespacePositionTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\ERROR_WITHOUT_ACTION\ErrorWithoutActionTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXCESSIVE_FUNCTION_CALLS\EXCSFCALL_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXCESSIVE_STACK_DEPTH\T0078.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXPLICIT_COPY_CONSTRUCTOR_WHEN_TEMPLATED_CONSTRUCTOR\EXPLCCWTC_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXPLICIT_QUALIFIER_WHEN_TEMPLATED_BASE\ExplicitNameQualifierWhenTemplatedBase.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXPLICIT_RETURN_IN_DTOR_CATCH\ExplicitReturnInDtorCatch.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXPLICIT_RETURN_WHEN_NON_VOID_RETURN_FUNCTION\ExplicitReturnWhenNonVoidReturnFunction.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXPLICIT_VIRTUAL_KEYWORD\3_3_16.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXPR_NOT_BOOLEAN\MISRA2008_5_0_13.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXPR_NOT_BOOLEAN\MISRA2008_5_0_14.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXPR_NOT_BOOLEAN\MISRA2008_5_3_1.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\E\EXTERN_VAR_AND_FUNC_SHOULD_BE_IN_INTERFACE_FILE\Rule49.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FILENAME_IN_ANGLE_BRACKET_OR_DOUBLE_QUOTATION\FNIABODQ_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FORBIDDEN_CALL.BEFORE_CALL\FBDCBFRC_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FORBIDDEN_DYNAMIC_TYPE_IN_CTOR_DTOR\ForbiddenDynamicTypeInCtorDtor.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FORMAT_STRING\format_string_fp.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FOR_LOOP_CONTROL_CHANGE_COND\MISRA2008_6_5_5.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FOR_LOOP_NONBOOL_CONTROL_CHANGED\MISRA2008_6_5_6.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FUNCTION_TRY_BLOCK_SHOULD_NOT_REFERENCE_CLASS_DATA\ERR35-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FUNCTION_TRY_BLOCK_SHOULD_NOT_REFERENCE_CLASS_DATA\fp_5715.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FUNCTION_WITHOUT_DEFINITION\T0040.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FUNCTION_WITH_VOID_RETURN_TYPE_SHOULD_HAVE_EXTERNAL_SIDE_EFFECT\FWVRTSHESE_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FUNCTION_WITH_VOID_RETURN_TYPE_SHOULD_HAVE_EXTERNAL_SIDE_EFFECT\FWVRTSHESE_002.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FUNCTION_WITH_VOID_RETURN_TYPE_SHOULD_HAVE_EXTERNAL_SIDE_EFFECT\FWVRTSHESE_003.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\F\FUNCTION_WITH_VOID_RETURN_TYPE_SHOULD_HAVE_EXTERNAL_SIDE_EFFECT\FWVRTSHESE_004.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\H\HANDLE_ALL_EXCEPTIONS_BEFORE_MAIN_BEGINS_EXECUTE\HAEBMBE_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\H\HANDLE_ALL_EXCEPTIONS_IF_SPECIFIED\HandleAllExceptionsIfSpecified.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\H\HANDLE_ALL_EXCEPTIONS_NOT_IN_SPEC\HandleAllExceptionsNotInSpec.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\H\HEAP_INSPECTION\HEAPISP_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IGNORED_RETURN_VALUE\IgnoredReturnValue.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPLICIT_UNSIGNED_CHAR_TO_CHAR_HANDLING_INT\ImplicitUnsignedCharToCharHandlingint.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_OVERLOAD_OF_SUBSCRIPT_OPERATOR\ImproperOverloadOfSubscriptOperator.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_RANDOM_USAGE\IMPRNDU_002.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_RANDOM_USAGE\T0054-msvc.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_REALLOC\Rule101.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_RESTRICTION_OF_XML_ENTITY\IMPROROXE_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_TYPE_ASSIGN\IMPTA_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_TYPE_ASSIGN\IMPTA_002.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_TYPE_ASSIGN\IMPTA_003.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_TYPE_ASSIGN\IMPTA_004.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_TYPE_ASSIGN\IMPTA_005.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_TYPE_ASSIGN\IMPTA_006.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\IMPROPER_TYPE_ASSIGN\IMPTA_007.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INCLUDE_EXPLICIT_CASES_FOR_ALL_ALTERNATIVES\IncludeExplicitCasesForAllAlternativesTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INCLUDE_STATIC_SPECIFIER_ON_REDECLARATION\MISRA2008_3_3_2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INCLUDE_STDLIB_WITH_BRACKETS\IncludeStdLibWithBrackets.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INCORRECT_CONVERSION.NUMERIC_TYPES\INCCNVNT_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INCORRECT_ORDER_OF_CONSTRUCTOR_INITIALIZERS\OOP37-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INCORRECT_PERMISSION\INCRPMS_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INCREMENT_ON_BOOLEAN\10_16.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INEFFECTIVE_BOOLEAN_LOGICAL_OP\BooleanToField.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INSERT_DERIVED_INTO_CONTAINER_HOLDING_BASE\InsertDerivedIntoConatinerHoldingBaseTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INSTANTIATE_TEMPLATES\InstantiateTemplates.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INTEGER_PRECISION\IntegerPrecision.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INVALID_DATA_TO_ASCTIME\T0080.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\I\INVOKE_VIRTUAL_FUNCTION_FROM_CTOR_OR_DTOR\OOP30-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\L\LANGUAGE_EXTENSION_SHOULD_NOT_BE_USED\LEXTSNBU_001-posix.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\L\LANGUAGE_EXTENSION_SHOULD_NOT_BE_USED\LEXTSNBU_002-msvc.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\L\LEAST_PRIVILEGE_VIOLATION.W32\LPRIVVW_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\L\LEFTOVER_DEBUG_CODE\7_1.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\L\LOGICAL_OP_SHALL_BE_PRIMARY_EXPR\LogicalOpShallBePrimaryExprTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MAIN_IN_GLOBAL_NAMESPACE\MainInGlobalNamespace.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MAIN_IN_GLOBAL_NAMESPACE\MainInGlobalNamespace2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MAIN_IN_GLOBAL_NAMESPACE\MainInGlobalNamespace3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MAKE_BINARY_OPERATORS_NONMEMBERS\MakeBinaryOperatorsNonmembers.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MAKE_COPYING_EFFICIENT_FOR_OBJECT\MakeCopyingEfficientForObjectTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MAKE_PREDICATES_PURE_FUNCTIONS\MPREDPF_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MEMBER_FUNCTION_SHOULD_NOT_RETURN_NON_CONST_HANDLER\MISRA2008_9_3_2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MINIMISE_MIXING_OF_ITERATOR\MMOITER_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MINIMISE_USE_AUTOPTR\MinimiseUseAutoPtrTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISMATCH_STORAGE_CLASS\MismatchStorageClass.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISSING_BREAK_IN_CASE.MISRA2008\MBIC_Misra2008.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISSING_BREAK_IN_CASE\T0053.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISSING_BREAK_OR_THROW_IN_CASE\MISRA2008_6_4_5.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISSING_COMPOUND_STATEMENT\MISRA2008_6_4_1.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISSING_DEBUG_CHECK\MSDBGCHK_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISSING_INTEGRITY_CHECK\MissingIntegrityCheck.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISSING_REQUIRE_CRYPTO_STEP\MREQCRPTS_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISSING_VALIDATION_OF_ARRAY_INDEX\T0037.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISSING_WRAPPER_ON_VARIABLE\MWRAPOV_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MISUSE_OF_TRY_CATCH\MisuseOfTryCatch.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MULTIPLE_BINDS_TO_SAME_PORT\MBINDTSP_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MULTIPLE_DECLARATION_IN_NAMESPACE\MultipleDeclarationsInNamespace.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MULTIPLE_SIGNAL_TO_SAME_HANDLER\MLTPSTSH_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MUST_CALL_BASE_CONSTRUCTOR\MustCallBaseConstructor.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MUST_CATCH_ALL_EXCEPTION_IN_DTOR\MustCatchAllExceptionInDtor-posix.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\M\MUST_CATCH_ALL_EXCEPTION_IN_MAIN\MustCatchAllExceptionInMain.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NAMESPACE_IN_HEADER_SHOULD_BE_NAMED\NamespaceInHeaderShouldBeNamed.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NAMES_WITH_WIDER_SCOPE_SHOULD_BE_LONGER\Rule37.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NAME_IS_USED_IN_STANDARD_LIBRARY\20_2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NAME_SHOULD_NOT_START_WITH_UNDERSCORE\Rule32.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NEVER_CREATE_CONTAINERS_OF_AUTO_PTRS\NeverCreateContainersOfAutoPtrsTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NEW_DELETE_INSTEAD_OF_MALLOC_FREE\Rule102.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NONEFFECTIVE_FUNCTION_CALL\T0079.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NON_CONSTANT_PTR_TO_FUNCTION\MISRA_C_1998_104.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NON_DYNAMIC_CAST_ON_VIRTUAL_BASE_CLASS_PTR\NonDynamicCastOnVirtualBaseClassPtr.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NOT_BE_ASSIGNED_TO_OVERLAPPING_OBJECTS\18_2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_BRACKETS_TO_SWITCH_BODY\MISRA_C_2004_14_8.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_BRACKETS_TO_THEN_ELSE\MISRA_C_2004_14_9.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_FUNCTION_DEFINITION_IN_HEADER\NFDEFIH_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_MEMBER_FUNCTION_IN_STRUCT\15_2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_PREPROCESSING_DIRECTIVE_IN_MACRO\NPPRCSDIM_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_PUBLIC_CONSTRUCTOR_FOR_ABSTRACT_CLASS\NoPublicConstructorTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_REAL_DECLARATION_FOR_VARIABLE\8_9aa.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_REAL_DECLARATION_FOR_VARIABLE\8_9ab.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NO_SEMICOLON_ON_SAME_STMT\NoSemicolonOnSameStmt.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\N\NULL_SHALL_NOT_BE_INTERGER_VALUE\NullShallNotBeIntegerValue.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONE_DEFINITION_RULE\ONEDEFR_001_a.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONE_DEFINITION_RULE\ONEDEFR_001_b.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_DECLARE_TRIVIAL_FUNCTINS_INLINE\OnlyDeclareTrivialFunctionsInlineTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_INLINE_SIMPLE_FUNCTION\OnlyInlineSimpleFunctionTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_LOOP_COUNT_INC_DEC\FP_5725.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_MAIN_IN_GLOBAL_SCOPE\OnlyMainInGlobalScope.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_THROW_OBJECT_OF_CLASS_TYPE\OnlyThrowObjectOfClassTypeTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_VIRTUAL_FUNC_DEFINITION_ON_INHERIT_HIERARCHY\onlyVirtualFuncDefinitionOnInheritHierarchyTest1.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_VIRTUAL_FUNC_DEFINITION_ON_INHERIT_HIERARCHY\onlyVirtualFuncDefinitionOnInheritHierarchyTest2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_VIRTUAL_FUNC_DEFINITION_ON_INHERIT_HIERARCHY\onlyVirtualFuncDefinitionOnInheritHierarchyTest3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_VIRTUAL_FUNC_DEFINITION_ON_INHERIT_HIERARCHY\onlyVirtualFuncDefinitionOnInheritHierarchyTest4.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_VIRTUAL_FUNC_DEFINITION_ON_INHERIT_HIERARCHY\onlyVirtualFuncDefinitionOnInheritHierarchyTest5.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_VIRTUAL_FUNC_DEFINITION_ON_INHERIT_HIERARCHY\onlyVirtualFuncDefinitionOnInheritHierarchyTest6.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_VIRTUAL_FUNC_DEFINITION_ON_INHERIT_HIERARCHY\onlyVirtualFuncDefinitionOnInheritHierarchyTest7.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ONLY_VIRTUAL_FUNC_DEFINITION_ON_INHERIT_HIERARCHY\onlyVirtualFuncDefinitionOnInheritHierarchyTest8.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\OPERATOR_NEW_AND_DELETE_MISMATCHED\DCL35-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ORDER_EXCEPTIONS_FROM_DERIVED_TO_BASE\OrderExceptionsFromDerivedToBaseTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\ORGANIZE_CLASS_DEFINE\OGNCLASSDEF_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\OVERLOADED_FUNCTION_TEMPLATE_NOT_BE_SPECIALIZED\OverloadedFunctionTemplateNotBeSpecialized.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\OVERLOADED_FUNCTION_TEMPLATE_NOT_BE_SPECIALIZED\OverloadedFunctionTemplateNotBeSpecialized_TN.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\OVERLOAD_RESOLUTION_COULD_BE_FORWARD\OverloadResolutionCouldBeForward.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\OVERRIDE_ALL_OVERLOADS_OF_BASE_CLASS\OAOOBC_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\OVERRIDE_PURE_TO_NONPURE\OverridePureToNonPure.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\O\OVERRUN.STATIC.MEMSET\OVSMEM_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PASS_OBJECT_OF_CORRECT_TYPE_TO_VA_START\va_start-posix.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PERSISTENT_COOKIE.CPP\PersistentCookieTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PLACE_SIGNED_CHAR\PSIGNCHAR_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\POSTFIX_OPERATOR_SHOULD_RETURN_CONST\DCL37-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\POSTPONE_VARIABLE_DEFINITIONS\PSTPVDEF_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\POSTPONE_VARIABLE_DEFINITIONS\PSTPVDEF_002.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\POTENTIAL_INFINITE_LOOP\InfiniteLoopTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PREDICATES_SHOULD_NOT_HAVE_NONSTATIC_DATA\ARR44-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PREFER_SPECIAL_MEMBER_AND_OVERLOADED_OP\PSMAOO_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PREFER_SPECIAL_MEMBER_AND_OVERLOADED_OP\PSMAOO_002.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PREFER_TO_USE_SIGNED_VALUE\PreferToUseSignedValueTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PREMATURE_THREAD_TERMINATION\PrematureThreadTerminationTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PRESERVE_ARRAY_DIMENSION\PSARRDIM_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PRESERVE_ARRAY_DIMENSION\PSARRDIM_002.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PRESERVE_ARRAY_DIMENSION\PSARRDIM_003.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PRESERVE_ARRAY_DIMENSION\PSARRDIM_004.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PRESERVE_ARRAY_DIMENSION\PSARRDIM_005.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PREVENT_OPERATIONS_ON_DEVICES\fio32-msvc.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PREVENT_OPERATIONS_ON_DEVICES\fio32-posix.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PREVENT_SENSITIVE_DATA_WRITE_TO_DISK\PRVSDWTD_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PRIVATE_COLLECTION.ASSIGN\cwe-496-example.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PRIVATE_COLLECTION\cwe-495-example.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PROHIBIT_DELETE_CONTAIN_ELEMENT_NUM\PHDELCEN_002.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PROHIBIT_FUNC_IN_TIME\PRHBFIT_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PROVIDE_PROPERLY_ALIGNED_POINTERS_TO_PLACEMENT_NEW\PPAPTPN_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PUBLICLY_DERIVED_CLASS_SHOULD_BE_ABSTRACT\3_4_5.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\P\PUBLIC_STATIC_FIELD_WITHOUT_CONST\PSFWC_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\R\REDUNDANT_CAST\44-posix.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\R\REDUNDANT_NAME\RDDNAME_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\R\REFER_ATOMIC_VARIABLE_MANY_TIMES_IN_EXPRESSION\ReferAtomicVariableManyTimesInExpression.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\R\RESET_STRING_ON_FGETS_FAILURE\fio40.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\R\RESTRICT_USE_OF_EXTERN_KEYWORD\8_3_2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\R\RETURN_PARAM_ADDR\ReturnParamAddr.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\R\RETURN_REFERENCE_PARAM\RETREFPARAM_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\R\RETURN_SHALL_NOT_HAVE_EXPRESSION\MISRA_C_1998_84.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\R\REVERSIBLE_ONE_WAY_HASH\RVSBOWH_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\SAVE_UNNECESSARY_REALLOCATION\SaveUnnecessaryReallocationTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\SIGNAL_HANDLER_USES_NON_VOLATILE_VARIABLE\DCL34-CPP.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\SINGLE_LOOP_COUNTER\SingleLoopCounter.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\SIZEOF_DO_NOT_CONTAIN_SIDE_EFFECTS\SDNCSE_002.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\SIZE_CALCULATION\T0083.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\SLICE_DERIVED_OBJECTS\SliceDrivedClass.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\SOCKET_IN_WRONG_STATE\T0082.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\STANDARD_CHARACTERS\STDCHS_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\STATIC_FOR_VARIABLE_USED_IN_ONLY_ONE_FILE\SFVUIOOF_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\STRING_OUT_OF_RANGE\StringOutOfRange.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\STRTOK_CHANGES_STRING\STOKCHSTR_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\SUPPLY_AN_INITIAL_VALUE_FOR_EACH_ENTRIES\SupplyAnInitialValueForEachEntries.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\SWITCH_CASE_IN_SAME_SCOPE\SwitchCaseInSameScope.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\SYMBOLIC_LINK_RACE_CONDITION\SYMLRC_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\SYMMETRIC_OPERATOR_SHOULD_BE_DEFINED_AS_FRIEND\SYMOMBDAM_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\S\SYNTACTICALLY_AMBIGUOUS_DECLARATIONS\SYNAMBDECL_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TAG_NAME_SHALL_BE_A_UNIQUE\TNSBAU_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TAG_NAME_SHALL_BE_A_UNIQUE\TagNameShallBeAUniqueTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TAKE_CARE_WHEN_USING_RENAME\TCWURNAME_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TEMPLATE_SPECIALIZATION_SHOULD_BE_SAME_FILE\TemplateSpecializationShouldBeSameFile.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TEMPLATE_SPECIALIZATION_SHOULD_BE_SAME_FILE\TemplateSpecializationShouldBeSameFile2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TEMPLATE_WITH_POTENTIALLY_CONFLICTING_METHODS\TemplateWithPotentiallyConflictingMethods.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TEMP_LIFETIME_OBJ_MODIFICATION\TLOBJMOD_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TESTED_AGAINST_CONSTANT_VALUE\TestedAgainstConstanceValueTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\THREAD_SHARE_LOCAL_VARIABLE\THRSLVAR_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\THROW_NULL\THRNULL_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TMP_FILE_IN_SHARED_DIR\TMPFISD_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TOO_LONG_COLUMN\TOOLNGCOL_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TOO_MANY_INIT_ARRAY\TMIA_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TOO_MANY_METHODS\TooManyMethodTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TOO_MANY_NONCYCLIC_EXECUTION_PATH\TooManyNoncyclicExecutionPathTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TYPEDEF_NAME_SHALL_BE_A_UNIQUE\TDEFNSBAU_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\T\TYPE_MISMATCH_IN_TERNARY\TypeMismatchInTernaryTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNEXPECTED_SIGN_EXTENSION\UXPSIGNEX_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNREACHABLE_CODE_STRING_COMPARE\UnreachableCodeStringCompareTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNSPECIFY_BUFFER_LENGTH_CIN\unspecifiedbuffer.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNUSED_CATCH_HANDLER\UNCATCHHANDL_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNUSED_CATCH_HANDLER\UnusedCatchHandler-posix.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNUSED_CATCH_HANDLER\test.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNUSED_PARAMETER.MISRA2008\UNUSEDPMISRA_002.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNUSED_PARAMETER.MISRA2008\misra2008-0-1-12.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNUSED_VALUE\MISRA2008_0_1_9.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNUSED_VALUE\RemoveUnusedValueTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\UNUSED_VALUE\UnusedValue.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_BRACE_MULTI_DIMENSION_ARRAY_INIT\UBMDARRI_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_BRACE_MULTI_DIMENSION_ARRAY_INIT\UBMDARRI_002.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CODEGUARD_WHEN_DECLARING_CLASS\UseCodeguardWhenDeclaringClass.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CONST_GLOBAL_AND_STATIC\UseConstGlobalAndStaticTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CONST_OBJECT_OR_ENUMERATORS\UseConstObjectOrEnumeratorsTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CONST_POINTER_FOR_STRING_VAR\UseConstPointerForString.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CONST_WHENEVER_POSSIBLE\UCWEP_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CONST_WHENEVER_POSSIBLE\UCWEP_002.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CONST_WHENEVER_POSSIBLE\UCWEP_003.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CONST_WHENEVER_POSSIBLE\UCWEP_006.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CONST_WHENEVER_POSSIBLE\UCWEP_007.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CONTAINERS_OF_POINTER\UseContainersOfPointerTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_CONTAINER_MEMBER_FUNCTIONS\UseContainerMemberFUnctionsTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_EACH_ACCESS_SPECIFIER_EXACTLY_ONCE\Rule67.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_EMPTY_INSTEAD_OF_CHECKING_SIZE_AGAINST_ZERO\UseEmptyInstreadOfCheckingSizeAgainstZeroTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_FERROR_THAN_COMPARE_ERRNO\UFERRTCERR_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_FUNCTION_IN_IF_CONDITION\UseFunctionInIfConditionTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_LOWER_CASE_IN_INCLUDE_FILENAMES\UseLoweCaseInIncludeFileNamesTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_OF_LOW_SECURITY_ENCRYPTION_ALGORITHM\UOLSEA_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_ONE_STATEMENT_PER_LINE\UseOneStatementPerLineTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_ONLY_PERMITTED_MACROS\UOPMTM_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_PASS_BY_REFERENCE\UsePassByReferenceTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_PREPROCESSOR_ONLY_INCLUDEGUARDS\UsePreprocessorOnlyIncludeguards.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_RSA_WITHOUT_OAEP\URSAWO_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_RUNTIME_CONSTRAINT_HANDLERS\URTCHNDR_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_SAME_DEFAULT_VALUES\UseSameDefaultValues.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_STANDARD_CPP_LIBRARY_HEADERS\17_1.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_SUFFIXES_FOR_FLOAT_CONSTANT\UseSuffixesForFloatConstantTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_SUFFIXES_FOR_INTEGER_CONSTANT\MISRA2008_2_13_4.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_SUFFIXES_FOR_INTEGER_CONSTANT\UseSuffixesForIntegerConstantTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USE_SUFFIX_FOR_UNSIGNED_INTEGER_LITERALS\MISRA2008_2_13_3.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\U\USING_COPY_INITIALIZATION\3_1_2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\V\VOLATILE_VALUE_MODIFICATION\VolatileValueModification.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\W\WAIT_ALL_THREAD_BEFORE_DESTROY\WaitAllThreadBeforeDestory.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\W\WEAK_ENCRYPTION.RSA_PADDING\WENCRSAPD_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\W\WEAK_SERVER_CERTIFICATES\WSERVCERT_001.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\W\WRITE_DIRECTIVE_NESTED_PREPROCESSOR\WriteDirectiveNestedPreprocessorTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\W\WRITE_DIRECTIVE_PREPROCESSOR\WriteDirectivePreprocessorTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\W\WRITE_STATIC_DECLARING_OPERATOR_NEW_AND_DELETE\WriteStaticDeclaringOperatorNewAndDeleteTest.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\W\WRITE_VIRTUAL_DTOR_FOR_BASE_CLASS\3_3_2.cpp" />
+    <ClCompile Include="D:\testcode\utill_testcode\2405.1\crulechk\local\W\WRONG_PREPROCESSING_TOKEN\WrongPreprocessingToken.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\testcode\utill_testcode\2405.1\crulechk\build219\ZERO_CHECK.vcxproj">
+      <Project>{B74AB1D5-526B-3C36-98AE-013B750825B7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

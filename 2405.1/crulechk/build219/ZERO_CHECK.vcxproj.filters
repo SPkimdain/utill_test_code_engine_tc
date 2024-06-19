@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\testcode\utill_testcode\2405.1\crulechk\build219\CMakeFiles\fee3e7aff170649817e50ff35c978774\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\testcode\utill_testcode\2405.1\crulechk\local\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\local</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5924FE0B-758D-3F44-A877-BB77C92FC63D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\local">
+      <UniqueIdentifier>{5004B27D-252C-3388-AF6E-48CD41933D5F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

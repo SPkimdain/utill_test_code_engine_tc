@@ -1,0 +1,10 @@
+^D:\TESTCODE\UTILL_TESTCODE\2405.1\CRULECHK\LOCAL\CMAKELISTS.TXT
+setlocal
+C:\util\cmake-3.27.0-windows-x86_64\bin\cmake.exe -SD:/testcode/utill_testcode/2405.1/crulechk -BD:/testcode/utill_testcode/2405.1/crulechk/build219 --check-stamp-file D:/testcode/utill_testcode/2405.1/crulechk/build219/local/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
